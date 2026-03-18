@@ -186,6 +186,14 @@ span {
     margin: 0;
 }
 
+#git p{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 #footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.366);

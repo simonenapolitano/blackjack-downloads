@@ -8,14 +8,14 @@ document.getElementById('downloadWindows').addEventListener('click', ()=>{
 
 document.getElementById('download64').addEventListener('click', ()=>{
     const link = document.createElement('a');
-    link.href = 'https://github.com/cristiandamico08-jpg/blackjack/releases/download/nuovo_setup/setupBlackJack_x64.dmg';
+    link.href = 'https://github.com/cristiandamico08-jpg/blackjack/releases/download/v1.2/setupBlackJack_x64.dmg';
     link.download = 'setupBlackJack_ARM64.dmg';
     link.click();
 });
 
 document.getElementById('downloadARM64').addEventListener('click', ()=>{
     const link = document.createElement('a');
-    link.href = 'https://github.com/cristiandamico08-jpg/blackjack/releases/download/nuovo_setup/setupBlackJack_ARM64.dmg';
+    link.href = 'https://github.com/cristiandamico08-jpg/blackjack/releases/download/v1.2/setupBlackJack_ARM64.dmg';
     link.download = 'setupBlackJack_x64.dmg';
     link.click();
 });
